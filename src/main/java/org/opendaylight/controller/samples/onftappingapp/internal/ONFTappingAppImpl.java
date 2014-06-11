@@ -44,6 +44,7 @@ import org.opendaylight.controller.switchmanager.Switch;
 import org.opendaylight.controller.switchmanager.SwitchConfig;
 import org.opendaylight.controller.samples.onftappingapp.DBAuthenticationException;
 import org.opendaylight.controller.samples.onftappingapp.DatabaseConnectException;
+import org.opendaylight.controller.samples.onftappingapp.Router;
 import org.opendaylight.controller.samples.onftappingapp.TappingApp;
 
 /**
