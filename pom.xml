@@ -53,13 +53,15 @@
               com.google.gson.*,
               spark.*,
               javax.*,
-              org.eclipse.jetty,*,
+              !org.eclipse.jetty.jmx,
+              org.eclipse.jetty.*,
               com.mongodb.*
             </Import-Package>
             <Export-Package>
               org.opendaylight.controller.samples.onftappingapp,
               spark.*,
-              org.eclipse.jetty
+              !org.eclipse.jetty.jmx,
+              org.eclipse.jetty.*
             </Export-Package>
             <Bundle-Activator>
               org.opendaylight.controller.samples.onftappingapp.internal.Activator
